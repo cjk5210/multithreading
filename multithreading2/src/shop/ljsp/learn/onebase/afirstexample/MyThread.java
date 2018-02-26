@@ -1,4 +1,4 @@
-package shop.ljsp.learn.onebase.firstexample;
+package shop.ljsp.learn.onebase.afirstexample;
 
 public class MyThread  extends Thread{
     @Override
