@@ -30,5 +30,6 @@ public class Run {
 
 Process finished with exit code 0
 ---
+change MyThread's 'run' method added 'synchronized'.
 Thread a,b,c,d,e use a same count variable.
  */
