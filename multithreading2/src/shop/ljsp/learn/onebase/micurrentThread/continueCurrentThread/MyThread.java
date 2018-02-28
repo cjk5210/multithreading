@@ -1,4 +1,4 @@
-package shop.ljsp.learn.onebase.icurrentThread.continueCurrentThread;
+package shop.ljsp.learn.onebase.micurrentThread.continueCurrentThread;
 
 public class MyThread extends Thread {
     public MyThread(){

@@ -1,4 +1,4 @@
-package shop.ljsp.learn.onebase.icurrentThread;
+package shop.ljsp.learn.onebase.micurrentThread;
 
 public class GetName {
     public static void main(String[] args) {

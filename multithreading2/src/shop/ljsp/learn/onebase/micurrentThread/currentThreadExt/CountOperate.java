@@ -1,4 +1,4 @@
-package shop.ljsp.learn.onebase.icurrentThread.currentThreadExt;
+package shop.ljsp.learn.onebase.micurrentThread.currentThreadExt;
 
 public class CountOperate extends Thread {
     public CountOperate(){
