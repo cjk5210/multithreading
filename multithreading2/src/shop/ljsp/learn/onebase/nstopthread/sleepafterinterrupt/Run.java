@@ -8,3 +8,14 @@ public class Run {
         System.out.println("end!");
     }
 }
+/*
+i=99998
+i=99999
+i=100000
+run begin
+先停止，再遇到了sleep!进入catch!
+
+Process finished with exit code 0
+----------
+enter into 'catch' block
+ */

@@ -28,7 +28,7 @@ run begin
 先停止，再遇到了sleep!进入catch!
 java.lang.InterruptedException: sleep interrupted
 	at java.lang.Thread.sleep(Native Method)
-	at shop.ljsp.learn.onebase.nstopthread.sleepafterinterrupt.MyThread.run(MyThread.java:12)
+	at shop.ljsp.learn.onebase.nstopthread.sleepafterinterrupt.MyThread.run(MyThread1.java:12)
 
 Process finished with exit code 0
 --------------

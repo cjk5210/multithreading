@@ -19,7 +19,7 @@ public class Run {
 run begin
 java.lang.InterruptedException: sleep interrupted
 	at java.lang.Thread.sleep(Native Method)
-	at shop.ljsp.learn.onebase.nstopthread.interruptsleepthread.MyThread.run(MyThread.java:9)
+	at shop.ljsp.learn.onebase.nstopthread.interruptsleepthread.MyThread.run(MyThread1.java:9)
 end!
 在沉睡中被停止！进入catchfalse
 
