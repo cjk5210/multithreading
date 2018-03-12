@@ -26,7 +26,7 @@ Exception in thread "a" java.lang.NumberFormatException: For input string: "a"
 	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:48)
 	at java.lang.Integer.parseInt(Integer.java:449)
 	at java.lang.Integer.parseInt(Integer.java:499)
-	at shop.ljsp.learn.unit2.ThrowExceptionNoLock.Service.testMethod(Service.java:11)
+	at shop.ljsp.learn.unit2.ThrowExceptionNoLock.Service.testMethod(Service3.java:11)
 	at shop.ljsp.learn.unit2.ThrowExceptionNoLock.ThreadA.run(ThreadA.java:12)
 
 Process finished with exit code 0
