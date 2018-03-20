@@ -8,5 +8,9 @@ public class Run {
         System.out.println(publicClass.getUsername()+" "
             + publicClass.getPassword());
         PublicClass.PrivateClass privateClass=new PublicClass.PrivateClass();
+        privateClass.setAge("ageValue");
+        privateClass.setAddress("addressValue");
+        System.out.println(privateClass.getAge()+" "
+                +privateClass.getAddress());
     }
 }
