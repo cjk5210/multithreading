@@ -1,4 +1,4 @@
-package shop.ljsp.learn.unit3_Thread_communication.a_3429_join_sleep1;
+package shop.ljsp.learn.unit3_Thread_communication.a_3463_join_sleep2;
 
 public class ThreadA extends Thread {
     private ThreadB b;
@@ -14,7 +14,11 @@ public class ThreadA extends Thread {
         try {
             synchronized (b){
                 b.start();
-                Thread.sleep(6000);
+                b.join();//说明join释放锁了！
+                for (int i = 0; i < Integer.MAX_VALUE; i++) {
+                    String newString=new String();
+                    Math.random();
+                }
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
